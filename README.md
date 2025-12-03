@@ -3,7 +3,12 @@
 
 A quick way to evaluate Retrieval-Augmented Generation (RAG) pipelines with Mistral LLM.
 
----
+
+
+## For detailed analysis of the results, see [results_analysis.md](results_analysis.md).
+
+
+
 
 ## 1. Setup
 

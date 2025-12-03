@@ -60,7 +60,7 @@ Therefore:
 
 
 
-Please refer to the [results folder](results) for the raw JSON outputs of `test_results.json`, `results_200_300.json`, `results_500_800.json`, and `results_800_100.json`, as well as the automatically generated results analysis `resultanalysis.md`.
+Please refer to the [results folder](results) for the raw JSON outputs of `test_results.json`, `results_200_300.json`, `results_500_600.json`, and `results_800_1000.json`, as well as the automatically generated results analysis `resultanalysis.md`.
 ---
 # **3. Plots**
 
@@ -227,12 +227,12 @@ Based on combined performance across **retrieval + faithfulness + semantic corre
 
 ### **Why this wins:**
 
-✔ Best **hit rate**
-✔ Best **MRR**
-✔ Best **faithfulness** (lowest hallucinations)
-✔ Most stable across question types
-✔ Cleaner, single-topic embeddings
-✔ Ideal for MiniLM’s dense retrieval behavior
+- Best **hit rate**
+- Best **MRR**
+- Best **faithfulness** (lowest hallucinations)
+- Most stable across question types
+- Cleaner, single-topic embeddings
+- Ideal for MiniLM’s dense retrieval behavior
 
 ### When to consider alternatives:
 
@@ -250,4 +250,4 @@ The smallest chunk size, **200–300 characters**, consistently outperforms larg
 
 It retrieves the right context more often, grounds the LLM’s answers more faithfully, and avoids semantic drift introduced by oversized chunks.
 
-**Therefore, 200–300 characters is the optimal chunk size for this RAG system.**
+### **Therefore, 200–300 characters is the optimal chunk size for this RAG system.**
