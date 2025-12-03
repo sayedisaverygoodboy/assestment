@@ -190,7 +190,7 @@ This chunk size overfits to semantic closeness but fails on fine-grained groundi
 
 ---
 
-# **5. Cross-Chunk Failure Insights**
+# **6. Cross-Chunk Failure Insights**
 
 ### **1. Document 4 Confusion**
 
@@ -219,7 +219,7 @@ Rare but visible in questions requiring long argumentative passages.
 
 ---
 
-# **6. Recommendation**
+# **7. Recommendation**
 
 Based on combined performance across **retrieval + faithfulness + semantic correctness**:
 
@@ -243,7 +243,7 @@ Based on combined performance across **retrieval + faithfulness + semantic corre
 
 ---
 
-# **7. Final Conclusion**
+# **8. Final Conclusion**
 
 This evaluation demonstrates that **chunk size is the single strongest determinant** of retrieval quality in this RAG pipeline.
 The smallest chunk size, **200–300 characters**, consistently outperforms larger sizes on all reliability-critical metrics.
