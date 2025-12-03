@@ -13,17 +13,17 @@
       "extracted_sources": [
         "Annihilation of Caste"
       ],
-      "answer": "The real remedy for the caste system, according to Document 1, is to destroy the belief in the sanctity of the shastras (Hindu scriptures) and overthrow their authority. The document argues that as long as people regard the shastras as sacred and infallible, caste will persist, and true reform is impossible without rejecting their legitimacy.\n\nSOURCES: Annihilation of Caste",
+      "answer": "The real remedy for the caste system, according to Document 1, is to destroy the belief in the sanctity of the shastras (Hindu scriptures) and overthrow their authority. The document argues that as long as people regard the shastras as sacred and infallible, the caste system will persist, and true reform cannot occur without rejecting their legitimacy.\n\nSOURCES: Annihilation of Caste",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
         "precision@5": 1.0,
-        "rouge_l": 0.3835616438356164,
-        "bleu": 0.1647518769857379,
-        "cosine_sim": 0.7174451351165771,
+        "rouge_l": 0.37333333333333335,
+        "bleu": 0.1576384024575908,
+        "cosine_sim": 0.7269155979156494,
         "relevance": 1.0,
-        "faithfulness": 0.5652173913043478
+        "faithfulness": 0.5833333333333334
       },
       "answerable": true
     },
@@ -40,17 +40,17 @@
       "extracted_sources": [
         "The Buddha and His Dhamma"
       ],
-      "answer": "Ambedkar highlights that the Buddha strongly opposed ritualism, condemning practices like sacrifices, rejecting the authority of the Vedas, and denying the efficacy of prayers and the usefulness of gods. The Buddha\u2019s Dhamma instead emphasized moral conduct\u2014avoiding evil, doing good, and purifying the mind\u2014as the core of his teachings.\n\nSOURCES: The Buddha and His Dhamma",
+      "answer": "Ambedkar highlights that the Buddha strongly opposed ritualism, condemning sacrifices, rejecting the authority of the Vedas, denying the efficacy of prayers, and discarding the usefulness of gods. The Buddha\u2019s Dhamma instead emphasized moral conduct\u2014avoiding evil, doing good, and purifying the mind\u2014as the core of his teachings.\n\nSOURCES: The Buddha and His Dhamma",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
         "precision@5": 0.8,
-        "rouge_l": 0.30136986301369867,
-        "bleu": 0.014368711573520295,
-        "cosine_sim": 0.7858349084854126,
+        "rouge_l": 0.3380281690140845,
+        "bleu": 0.014602425798587773,
+        "cosine_sim": 0.789315402507782,
         "relevance": 0.5555555555555556,
-        "faithfulness": 0.5121951219512195
+        "faithfulness": 0.525
       },
       "answerable": true
     },
@@ -60,24 +60,24 @@
       "retrieved_sources": [
         "speech3.txt",
         "speech3.txt",
+        "speech3.txt",
         "speech6.txt",
-        "speech1.txt",
-        "speech2.txt"
+        "speech1.txt"
       ],
       "extracted_sources": [
         "States and Minorities"
       ],
-      "answer": "Ambedkar mentions two types of constitutional remedies in Document 3: justiciable fundamental rights and non-justiciable directive principles.\n\nSOURCES: States and Minorities",
+      "answer": "Ambedkar mentions two types of constitutional remedies in *Document 3*: justiciable **fundamental rights** and non-justiciable **directive principles**.\n\nSOURCES: States and Minorities",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
-        "precision@5": 0.4,
+        "precision@5": 0.6,
         "rouge_l": 0.30303030303030304,
-        "bleu": 0.022023814946586635,
-        "cosine_sim": 0.7251843214035034,
+        "bleu": 0.015237428485138389,
+        "cosine_sim": 0.7460286021232605,
         "relevance": 0.6363636363636364,
-        "faithfulness": 0.6818181818181818
+        "faithfulness": 0.6521739130434783
       },
       "answerable": true
     },
@@ -94,17 +94,17 @@
       "extracted_sources": [
         "The Untouchables"
       ],
-      "answer": "In *Document 4*, Dr. B.R. Ambedkar describes personal experiences of untouchability, including being forced to sit outside classrooms, denied access to water from public wells, and subjected to humiliation and segregation in schools and society due to his Dalit identity. He recounts instances where upper-caste individuals refused to touch or interact with him, reinforcing the systemic oppression faced by untouchables.\n\nSOURCES: The Untouchables",
+      "answer": "In *Document 4*, Ambedkar describes personal experiences of untouchability such as being forced to live outside village boundaries, denied access to education, barred from owning property, and relegated to degrading menial labor. He also highlights systemic exclusion and the psychological and social oppression faced by untouchables due to caste discrimination.\n\nSOURCES: The Untouchables",
       "metrics": {
         "hit_rate": 1,
         "mrr": 0.25,
         "precision@1": 0.0,
         "precision@5": 0.4,
-        "rouge_l": 0.14814814814814817,
-        "bleu": 0.04125590710394739,
-        "cosine_sim": 0.44921189546585083,
-        "relevance": 0.5,
-        "faithfulness": 0.3275862068965517
+        "rouge_l": 0.11594202898550725,
+        "bleu": 0.008792073298921142,
+        "cosine_sim": 0.45448458194732666,
+        "relevance": 0.35714285714285715,
+        "faithfulness": 0.42
       },
       "answerable": true
     },
@@ -121,17 +121,17 @@
       "extracted_sources": [
         "Pakistan or the Partition of India"
       ],
-      "answer": "Ambedkar believed Pakistan's creation was inevitable because he viewed Hindus and Muslims as two distinct nations with separate religions, cultures, languages, and historical backgrounds, making coexistence under a unified India untenable. He argued that Muslims possessed a strong consciousness of their separate national identity and could not accept Hindu domination, necessitating a separate homeland where they could preserve and develop their own civilization.\n\nSOURCES: Pakistan or the Partition of India",
+      "answer": "Ambedkar believes Pakistan's creation was inevitable because he views Hindus and Muslims as two distinct nations with separate religions, cultures, languages, and historical backgrounds, making coexistence under a unified India untenable. He argues that Muslims possess a strong consciousness of their separate national identity and refuse to live under Hindu domination, necessitating a separate homeland where they can develop independently.\n\nSOURCES: Pakistan or the Partition of India",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
         "precision@5": 1.0,
-        "rouge_l": 0.3043478260869565,
-        "bleu": 0.0818695212523483,
-        "cosine_sim": 0.5834862589836121,
-        "relevance": 0.7391304347826086,
-        "faithfulness": 0.6
+        "rouge_l": 0.33707865168539325,
+        "bleu": 0.08863005960162665,
+        "cosine_sim": 0.5990517139434814,
+        "relevance": 0.782608695652174,
+        "faithfulness": 0.6101694915254238
       },
       "answerable": true
     },
@@ -204,17 +204,17 @@
         "Document1.txt",
         "Document3.txt"
       ],
-      "answer": "Ambedkar's concept of an ideal society, as outlined in Documents 1 and 3, is founded on the principles of **liberty, equality, and fraternity**, rejecting the constraints of tradition and caste-based oppression. He envisions a society where individuals are free from slavery\u2014whether to customs, social hierarchies, or others\u2014emphasizing personal autonomy, mutual respect, and collective solidarity. The abolition of caste is central to achieving this vision, as it dismantles the root of social inequality and oppression.\n\nSOURCES: Document1.txt, Document3.txt",
+      "answer": "Ambedkar's concept of an ideal society, as outlined in Documents 1 and 3, is founded on the principles of **liberty, equality, and fraternity**, rejecting the constraints of tradition and caste-based oppression. He envisions a society where individuals are free from slavery\u2014whether to customs, social hierarchies, or others\u2014and where equality and mutual respect (fraternity) prevail. The realization of this ideal, he argues, is contingent upon the **abolition of caste**, which he identifies as the root obstacle to social justice and true democracy.\n\nSOURCES: Document1.txt, Document3.txt",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
         "precision@5": 0.6,
-        "rouge_l": 0.14736842105263157,
-        "bleu": 0.05307773445131399,
-        "cosine_sim": 0.4265715479850769,
-        "relevance": 0.6153846153846154,
-        "faithfulness": 0.35384615384615387
+        "rouge_l": 0.1568627450980392,
+        "bleu": 0.04997142758459487,
+        "cosine_sim": 0.49049824476242065,
+        "relevance": 0.6923076923076923,
+        "faithfulness": 0.3382352941176471
       },
       "answerable": true
     },
@@ -229,20 +229,20 @@
         "speech1.txt"
       ],
       "extracted_sources": [
-        "passage1.txt",
-        "passage2.txt"
+        "Document3.txt",
+        "Document6.txt"
       ],
-      "answer": "In Documents 3 and 6, Ambedkar links political power to social change by arguing that political democracy is unsustainable without foundational social democracy, which requires dismantling oppressive structures like caste and the authority of the *shastras*. He asserts that true social reform demands radical transformation\u2014overthrowing entrenched beliefs and hierarchies\u2014rather than superficial adjustments, as political power alone cannot achieve equality without addressing the root causes of social inequality.\n\nSOURCES: passage1.txt, passage2.txt",
+      "answer": "In Documents 3 and 6, Ambedkar links political power to social change by arguing that political democracy alone is insufficient without social democracy. He asserts that true social transformation requires dismantling entrenched systems like caste, which are upheld by religious texts (shastras), and that political power must be used to abolish such oppressive structures to achieve liberty, equality, and fraternity. Without addressing these social inequalities, political democracy remains fragile and incomplete.\n\nSOURCES: Document3.txt, Document6.txt",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
         "precision@5": 0.4,
-        "rouge_l": 0.11111111111111112,
-        "bleu": 0.0067755865182900004,
-        "cosine_sim": 0.38983404636383057,
+        "rouge_l": 0.10869565217391304,
+        "bleu": 0.007397773270120585,
+        "cosine_sim": 0.4718233644962311,
         "relevance": 0.35294117647058826,
-        "faithfulness": 0.36065573770491804
+        "faithfulness": 0.3114754098360656
       },
       "answerable": true
     },
@@ -257,7 +257,7 @@
         "speech4.txt"
       ],
       "extracted_sources": [],
-      "answer": "The provided passages do not mention Dr. B.R. Ambedkar's favorite food. The texts focus on his philosophical and religious views, particularly his emphasis on the law of Karma, human agency, and his interpretation of Buddhism.\n\nSOURCES:",
+      "answer": "There is no reliable information in the provided passages about Dr. B.R. Ambedkar's favorite food, as they focus on his philosophical and social views rather than personal preferences.\n\nSOURCES:",
       "metrics": {
         "hit_rate": 0,
         "mrr": 0.0,
@@ -267,7 +267,7 @@
         "bleu": 0.0,
         "cosine_sim": 0.0,
         "relevance": 0.0,
-        "faithfulness": 0.3333333333333333
+        "faithfulness": 0.2727272727272727
       },
       "answerable": false
     },
@@ -282,9 +282,9 @@
         "speech6.txt"
       ],
       "extracted_sources": [
-        "None (The provided passages do not contain information about Ambedkar's visits to the U.S.)"
+        "(No relevant source filenames provided in the passages)"
       ],
-      "answer": "Dr. B.R. Ambedkar visited the United States twice: first in 1913 to pursue his postgraduate studies at Columbia University, where he earned his M.A. and Ph.D., and later in 1950 to deliver a lecture at the same institution.\n\nSOURCES: None (The provided passages do not contain information about Ambedkar's visits to the U.S.)",
+      "answer": "Dr. B.R. Ambedkar visited the United States twice: first in 1913 to pursue his postgraduate studies at Columbia University, where he earned his M.A. and Ph.D., and later in 1950 to attend a conference.\n\nSOURCES: (No relevant source filenames provided in the passages)",
       "metrics": {
         "hit_rate": 0,
         "mrr": 0.0,
@@ -294,7 +294,7 @@
         "bleu": 0.0,
         "cosine_sim": 0.0,
         "relevance": 0.0,
-        "faithfulness": 0.1836734693877551
+        "faithfulness": 0.14285714285714285
       },
       "answerable": false
     },
@@ -358,24 +358,24 @@
       "retrieved_sources": [
         "speech3.txt",
         "speech3.txt",
+        "speech3.txt",
         "speech6.txt",
-        "speech6.txt",
-        "speech2.txt"
+        "speech6.txt"
       ],
       "extracted_sources": [
         "States and Minorities"
       ],
-      "answer": "In Document 3, Ambedkar emphasizes fundamental rights such as the **right to equality**, the **right to freedom**, the **right against exploitation**, and the **right to constitutional remedies**, which are essential to safeguard minorities from the majority's tyranny.\n\nSOURCES: States and Minorities",
+      "answer": "In Document 3, Ambedkar mentions the following fundamental rights: the right to equality, the right to freedom, the right against exploitation, and the right to constitutional remedies. These rights are emphasized as essential for protecting minorities from the tyranny of the majority.\n\nSOURCES: States and Minorities",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
-        "precision@5": 0.4,
-        "rouge_l": 0.43636363636363634,
-        "bleu": 0.032442307313337866,
-        "cosine_sim": 0.6160107851028442,
+        "precision@5": 0.6,
+        "rouge_l": 0.4067796610169491,
+        "bleu": 0.13733465907927725,
+        "cosine_sim": 0.6874749660491943,
         "relevance": 0.9090909090909091,
-        "faithfulness": 0.6470588235294118
+        "faithfulness": 0.6857142857142857
       },
       "answerable": true
     },
@@ -392,17 +392,17 @@
       "extracted_sources": [
         "Document4.txt"
       ],
-      "answer": "Dr. B.R. Ambedkar struggled relentlessly for education despite facing severe discrimination and hardship. He was forced to sit outside classrooms due to untouchability, studied under streetlights when he couldn\u2019t afford kerosene, and endured systemic exclusion, yet his determination to gain knowledge remained unshaken, as he viewed education as the key to liberation and empowerment for the oppressed.\n\nSOURCES: Document4.txt",
+      "answer": "Dr. B.R. Ambedkar struggled for education by persisting against severe social and economic barriers; he attended school but was forced to sit outside the classroom due to untouchability, and later studied under streetlights when he couldn\u2019t afford kerosene for lamps. His determination to gain education became a cornerstone of his fight against caste-based oppression.\n\nSOURCES: Document4.txt",
       "metrics": {
         "hit_rate": 1,
         "mrr": 0.5,
         "precision@1": 0.0,
         "precision@5": 0.6,
-        "rouge_l": 0.20512820512820512,
-        "bleu": 0.016664251453945244,
-        "cosine_sim": 0.46645909547805786,
-        "relevance": 0.35294117647058826,
-        "faithfulness": 0.3584905660377358
+        "rouge_l": 0.23684210526315785,
+        "bleu": 0.008998901289965153,
+        "cosine_sim": 0.47545623779296875,
+        "relevance": 0.5294117647058824,
+        "faithfulness": 0.42592592592592593
       },
       "answerable": true
     },
@@ -419,17 +419,17 @@
       "extracted_sources": [
         "Document 5"
       ],
-      "answer": "In *Document 5*, Ambedkar argues that the unity of India is artificial, asserting that it was imposed by British colonial rule rather than being an organic or historical reality. He contends that India was never truly united before British rule and advocates for the partition of India as a solution to the Hindu-Muslim conflict, suggesting that Muslims should have a separate state to develop independently.\n\nSOURCES: Document 5",
+      "answer": "In Document 5, Ambedkar argues that the unity of India is artificial, asserting that it was imposed by British colonial rule rather than emerging organically. He contends that India was never truly united before British intervention and advocates for the partition of India as the only viable solution to the Hindu-Muslim conflict, suggesting that Muslims should have a separate state to develop independently.\n\nSOURCES: Document 5",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
         "precision@5": 0.4,
-        "rouge_l": 0.27906976744186046,
-        "bleu": 0.059425856132575255,
-        "cosine_sim": 0.7110903859138489,
+        "rouge_l": 0.28571428571428575,
+        "bleu": 0.06279836144245281,
+        "cosine_sim": 0.6799559593200684,
         "relevance": 0.875,
-        "faithfulness": 0.49122807017543857
+        "faithfulness": 0.5272727272727272
       },
       "answerable": true
     },
@@ -441,22 +441,22 @@
         "speech6.txt",
         "speech6.txt",
         "speech6.txt",
-        "speech4.txt"
+        "speech6.txt"
       ],
       "extracted_sources": [
         "The Untouchables"
       ],
-      "answer": "Dr. B.R. Ambedkar proposes that the solution for untouchables lies in the **annihilation of caste** and emphasizes their self-empowerment through **fighting for rights, organizing themselves, and educating their children** to break free from oppression.\n\nSOURCES: The Untouchables",
+      "answer": "Dr. B.R. Ambedkar proposes that the solution for untouchables lies in the **annihilation of caste** through collective action. He advocates for untouchables to **fight for their rights, organize themselves, and educate their children** to break free from oppression and achieve social equality.\n\nSOURCES: The Untouchables",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
-        "precision@5": 0.8,
-        "rouge_l": 0.19999999999999996,
-        "bleu": 0.012138611630770825,
-        "cosine_sim": 0.529699444770813,
+        "precision@5": 1.0,
+        "rouge_l": 0.21052631578947367,
+        "bleu": 0.010237869503610934,
+        "cosine_sim": 0.5017808675765991,
         "relevance": 0.46153846153846156,
-        "faithfulness": 0.5142857142857142
+        "faithfulness": 0.475
       },
       "answerable": true
     },
@@ -467,8 +467,8 @@
         "speech3.txt",
         "speech2.txt",
         "speech3.txt",
-        "speech2.txt",
-        "speech6.txt"
+        "speech3.txt",
+        "speech2.txt"
       ],
       "extracted_sources": [
         "Document1.txt",
@@ -476,15 +476,15 @@
       ],
       "answer": "In Document 1, the concept of the \"enemy\" is implicitly framed as the \"tyranny of the majority,\" where the threat to individual or minority rights comes from oppressive societal or governmental forces that undermine equality and freedom. In contrast, Document 6 does not explicitly mention an \"enemy\" but aligns with the idea of self-determination, where the individual is responsible for their own fate, suggesting that external forces (like societal oppression) can be overcome through personal agency and karma, rather than being viewed as an inherent adversary.\n\nSOURCES: Document1.txt, Document6.txt",
       "metrics": {
-        "hit_rate": 1,
-        "mrr": 0.2,
+        "hit_rate": 0,
+        "mrr": 0.0,
         "precision@1": 0.0,
-        "precision@5": 0.2,
+        "precision@5": 0.0,
         "rouge_l": 0.21428571428571427,
         "bleu": 0.04847702449356003,
         "cosine_sim": 0.7034494876861572,
         "relevance": 0.7333333333333333,
-        "faithfulness": 0.30666666666666664
+        "faithfulness": 0.28
       },
       "answerable": true
     },
@@ -502,17 +502,17 @@
         "The Buddha and His Dhamma",
         "Pakistan or the Partition of India"
       ],
-      "answer": "In *Document 2* (\"The Buddha and His Dhamma\"), Ambedkar presents Buddhism as a rational, egalitarian, and socially focused religion that rejects ritualism, caste hierarchies, and divine authority, emphasizing moral conduct and human relationships. Conversely, in *Document 5* (\"Pakistan or the Partition of India\"), he adopts a more pragmatic and critical stance toward religion, framing Hinduism and Islam as divisive forces that shape distinct national identities, contributing to communal conflict rather than social unity.\n\nSOURCES: The Buddha and His Dhamma, Pakistan or the Partition of India",
+      "answer": "In *Document 2* (\"The Buddha and His Dhamma\"), Ambedkar presents Buddhism as a rational, egalitarian, and socially transformative religion centered on moral conduct, human relationships, and the rejection of ritualism, gods, and scriptural authority like the Vedas. Conversely, in *Document 5* (\"Pakistan or the Partition of India\"), he adopts a more critical stance toward religion, framing Hinduism and Islam as divisive forces that create distinct national identities, reinforcing communal differences rather than fostering unity or social reform.\n\nSOURCES: The Buddha and His Dhamma, Pakistan or the Partition of India",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
         "precision@5": 0.8,
-        "rouge_l": 0.2545454545454546,
-        "bleu": 0.00782901203385458,
-        "cosine_sim": 0.7755991220474243,
+        "rouge_l": 0.24561403508771934,
+        "bleu": 0.00748710043303999,
+        "cosine_sim": 0.7664652466773987,
         "relevance": 0.5833333333333334,
-        "faithfulness": 0.38571428571428573
+        "faithfulness": 0.3611111111111111
       },
       "answerable": true
     },
@@ -530,17 +530,17 @@
         "passage1.txt",
         "passage3.txt"
       ],
-      "answer": "In Ambedkar's philosophy, education is intrinsically linked to liberation as it serves as the primary tool for emancipation from caste oppression and social injustice. He believed that without education, marginalized communities like the untouchables would remain subjugated, denied dignity, and excluded from societal progress. Education empowered individuals to challenge systemic discrimination, assert their rights, and organize for collective action, ultimately paving the way for the annihilation of caste and true freedom.\n\nSOURCES: passage1.txt, passage3.txt",
+      "answer": "In Ambedkar's philosophy, education is a fundamental tool for liberation, particularly for the oppressed and marginalized, such as the untouchables. He believed that education empowers individuals to challenge systemic injustice, assert their rights, and break free from the shackles of caste-based oppression. Through education, Ambedkar saw the potential for social transformation, enabling the downtrodden to organize, resist discrimination, and achieve dignity and equality in society.\n\nSOURCES: passage1.txt, passage3.txt",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
         "precision@5": 1.0,
-        "rouge_l": 0.15384615384615385,
-        "bleu": 0.006577653943195875,
-        "cosine_sim": 0.7022655010223389,
+        "rouge_l": 0.18604651162790697,
+        "bleu": 0.006721154670334977,
+        "cosine_sim": 0.6605429649353027,
         "relevance": 0.6428571428571429,
-        "faithfulness": 0.328125
+        "faithfulness": 0.3275862068965517
       },
       "answerable": true
     },
@@ -555,7 +555,7 @@
         "speech1.txt"
       ],
       "extracted_sources": [],
-      "answer": "Dr. B.R. Ambedkar was born in the year **1891**.\n\nSOURCES:",
+      "answer": "Dr. B.R. Ambedkar was born in the year 1891.\n\nSOURCES:",
       "metrics": {
         "hit_rate": 0,
         "mrr": 0.0,
@@ -565,7 +565,7 @@
         "bleu": 0.0,
         "cosine_sim": 0.0,
         "relevance": 0.0,
-        "faithfulness": 0.23076923076923078
+        "faithfulness": 0.25
       },
       "answerable": false
     },
@@ -576,7 +576,7 @@
         "speech6.txt",
         "speech6.txt",
         "speech6.txt",
-        "speech4.txt",
+        "speech6.txt",
         "speech4.txt"
       ],
       "extracted_sources": [
@@ -585,9 +585,9 @@
       "answer": "According to Document 4, untouchables faced severe restrictions including being denied the right to education and property ownership, forced to live outside village boundaries, and condemned to perform only menial labor.\n\nSOURCES: The Untouchables",
       "metrics": {
         "hit_rate": 1,
-        "mrr": 0.25,
+        "mrr": 0.2,
         "precision@1": 0.0,
-        "precision@5": 0.4,
+        "precision@5": 0.2,
         "rouge_l": 0.19607843137254904,
         "bleu": 0.013722599955986396,
         "cosine_sim": 0.5179441571235657,
@@ -604,7 +604,7 @@
         "speech3.txt",
         "speech3.txt",
         "speech6.txt",
-        "speech1.txt"
+        "speech6.txt"
       ],
       "extracted_sources": [
         "Document 3"
@@ -619,7 +619,7 @@
         "bleu": 0.1552357389121268,
         "cosine_sim": 0.4193999469280243,
         "relevance": 0.9230769230769231,
-        "faithfulness": 0.5757575757575758
+        "faithfulness": 0.5454545454545454
       },
       "answerable": true
     },
@@ -631,22 +631,22 @@
         "speech3.txt",
         "speech3.txt",
         "speech3.txt",
-        "speech6.txt"
+        "speech3.txt"
       ],
       "extracted_sources": [
         "States and Minorities"
       ],
-      "answer": "In *Document 3*, Ambedkar describes the Constitution as more than a \"mere lawyers' document,\" emphasizing that it is a \"vehicle of life\" reflecting the spirit of its age. He stresses that it must ensure both political and economic democracy, arguing that political democracy cannot endure without social democracy as its foundation.\n\nSOURCES: States and Minorities",
+      "answer": "In *Document 3*, Ambedkar emphasizes that the Constitution is not merely a legalistic or technical document but a \"vehicle of life,\" reflecting the spirit of its time. He underscores the importance of fundamental rights\u2014such as equality, freedom, and protection against exploitation\u2014as justiciable safeguards to prevent the tyranny of the majority over minorities, distinguishing them from non-justiciable directive principles.\n\nSOURCES: States and Minorities",
       "metrics": {
         "hit_rate": 1,
         "mrr": 1.0,
         "precision@1": 1.0,
-        "precision@5": 0.8,
-        "rouge_l": 0.2702702702702703,
-        "bleu": 0.06006158040232693,
-        "cosine_sim": 0.5160925984382629,
-        "relevance": 0.7894736842105263,
-        "faithfulness": 0.62
+        "precision@5": 1.0,
+        "rouge_l": 0.2619047619047619,
+        "bleu": 0.025674911498736463,
+        "cosine_sim": 0.4110887944698334,
+        "relevance": 0.5789473684210527,
+        "faithfulness": 0.5263157894736842
       },
       "answerable": true
     },
@@ -680,14 +680,14 @@
   ],
   "aggregate": {
     "hit_rate": {
-      "mean": 0.88,
+      "mean": 0.84,
       "median": 1,
-      "stdev": 0.32496153618543844
+      "stdev": 0.3666060555964672
     },
     "mrr": {
-      "mean": 0.748,
+      "mean": 0.738,
       "median": 1.0,
-      "stdev": 0.3835309635479253
+      "stdev": 0.399319421015307
     },
     "precision@1": {
       "mean": 0.68,
@@ -695,34 +695,34 @@
       "stdev": 0.466476151587624
     },
     "precision@5": {
-      "mean": 0.5760000000000001,
+      "mean": 0.592,
       "median": 0.6,
-      "stdev": 0.31148675734290854
+      "stdev": 0.341666504065002
     },
     "rouge_l": {
-      "mean": 0.22048994068254216,
-      "median": 0.21428571428571427,
-      "stdev": 0.11368114877521404
+      "mean": 0.22321945091657344,
+      "median": 0.23684210526315785,
+      "stdev": 0.11358243136262444
     },
     "bleu": {
-      "mean": 0.043346115869274275,
-      "median": 0.02235136879910394,
-      "stdev": 0.05204737328506025
+      "mean": 0.04423652077616414,
+      "median": 0.015237428485138389,
+      "stdev": 0.0556706695976292
     },
     "cosine_sim": {
-      "mean": 0.5101280307769775,
-      "median": 0.5179441571235657,
-      "stdev": 0.22104072659463322
+      "mean": 0.51277193069458,
+      "median": 0.5109968185424805,
+      "stdev": 0.2206674195801057
     },
     "relevance": {
-      "mean": 0.5951557936537072,
+      "mean": 0.5928953323489601,
       "median": 0.6363636363636364,
-      "stdev": 0.2871206177870811
+      "stdev": 0.2856585952562867
     },
     "faithfulness": {
-      "mean": 0.46148162624870126,
-      "median": 0.5121951219512195,
-      "stdev": 0.14427237916087993
+      "mean": 0.4568388630531282,
+      "median": 0.525,
+      "stdev": 0.14761289602742161
     }
   }
 }
