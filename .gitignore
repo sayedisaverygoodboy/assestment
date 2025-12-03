@@ -1,2 +1,5 @@
 eva_me.py
 .env
+models.py
+__pycache__/
+instructions.md
