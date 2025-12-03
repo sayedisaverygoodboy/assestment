@@ -120,7 +120,7 @@ def analyze_results(all_results: Dict[str, Any], output_dir: str, top_n_failures
         fname = plots_dir / f"{m}.png"
         plt.savefig(fname)
         plt.close()
-        md_lines.append(f"\n![{m}]({fname.name})\n")
+        md_lines.append(f"\n![{m}](plots/{fname.name})\n")
 
     # failure mode extraction: worst per-chunk by rouge_l (or hit_rate)
     md_lines.append("\n## Failure Mode Analysis\n")

@@ -1,4 +1,4 @@
-# RAG Evaluation Analysis
+# (Automated) RAG Evaluation Analysis
 
 Generated: 2025-12-03T04:53:02.126684 UTC
 
@@ -11,31 +11,31 @@ Generated: 2025-12-03T04:53:02.126684 UTC
 | 500_600 | 0.840 | 0.738 | 0.680 | 0.592 | 0.223 | 0.044 | 0.513 | 0.593 | 0.457 |
 | 800_1000 | 0.800 | 0.728 | 0.680 | 0.648 | 0.223 | 0.045 | 0.517 | 0.596 | 0.456 |
 
-![hit_rate](hit_rate.png)
+![hit_rate](plots/hit_rate.png)
 
 
-![mrr](mrr.png)
+![mrr](plots/mrr.png)
 
 
-![precision@1](precision@1.png)
+![precision@1](plots/precision@1.png)
 
 
-![precision@5](precision@5.png)
+![precision@5](plots/precision@5.png)
 
 
-![rouge_l](rouge_l.png)
+![rouge_l](plots/rouge_l.png)
 
 
-![bleu](bleu.png)
+![bleu](plots/bleu.png)
 
 
-![cosine_sim](cosine_sim.png)
+![cosine_sim](plots/cosine_sim.png)
 
 
-![relevance](relevance.png)
+![relevance](plots/relevance.png)
 
 
-![faithfulness](faithfulness.png)
+![faithfulness](plots/faithfulness.png)
 
 
 ## Failure Mode Analysis
